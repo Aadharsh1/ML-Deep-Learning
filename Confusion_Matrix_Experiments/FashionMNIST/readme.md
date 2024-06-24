@@ -27,21 +27,21 @@ The code involves an external file `model.pth`, which contains the weights for t
 ### 1. Removing Images from one misclassified folder
 
 - Removing the images labeled as T-shirts but misclassified as shirts.
+![Results](images/1.jpg)
 
 ### 2. Removing Images from both misclassified folders
 - Removing both folders where T-shirts were misclassified as shirts and shirts were misclassified as T-shirts.
+![Results](images/2.jpg)
 
 ### 3. Swapping Labels
 
 - Swapping the labels of misclassified T-shirts as shirts to shirts and misclassified shirts as T-shirts to T-shirts, and retraining the model.
   - The labels of 549 T-shirts were reassigned to shirts.
   - The labels of 819 shirts were reassigned to T-shirts.
+![Results](images/3.jpg)
 
 ### 4. Reassigning Labels of One Group
 
 - Only reassigning the labels of one group of misclassified images.
   - The labels of 885 shirts, which were misclassified as T-shirts, were reassigned to T-shirts.
-
-## Results 
-The images of the before and after confusion matrices for each of these 4 experiments can be seen along with the rest of the documentation in the attached `documentation.docx`
-
+![Results](images/4.jpg)
