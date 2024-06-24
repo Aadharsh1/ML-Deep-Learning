@@ -15,6 +15,10 @@ The Tiny ImageNet-C dataset includes multiple types of distortions, each with se
 - Impulse Noise
 - JPEG Compression
 
+### General Types of Distortions
+
+![Different Types of Distortions](images/distortions_overview.png)
+
 ### Methodology
 
 1. **Baseline Model**: A baseline model was trained on the original Tiny ImageNet dataset.
@@ -25,6 +29,7 @@ The Tiny ImageNet-C dataset includes multiple types of distortions, each with se
 
 The code and detailed implementation can be found in the following Jupyter Notebook:
 - [Experiments on Tiny ImageNet-C](https://github.com/Aadharsh1/ML-Deep-Learning/blob/main/Corrupted_Images_Example/Tiny_Imagenet_C/tiny_imagenet_C%20.ipynb)
+
 
 ## Experiments
 
