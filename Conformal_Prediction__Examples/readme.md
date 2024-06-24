@@ -15,23 +15,6 @@ Conformal prediction was applied to different datasets to observe the prediction
 
 For simpler datasets like MNIST and FashionMNIST, custom CNNs were built. For more complex datasets like Food101, CIFAR-10, CIFAR-100, and Tiny Imagenet, transfer learning was used.
 
-## Directory Structure
-
-Conformal_Prediction_Examples/
-├── CIFAR10
-│ └── conformal_prediction_cifar10.ipynb
-├── CIFAR100
-│ ├── conformal_prediction_cifar100_20.ipynb
-│ └── cp_cifar100_superclasses.ipynb
-├── FashionMNIST
-│ └── conformal_prediction_Fashion_Mnist.ipynb
-├── Food101
-│ └── conformal_prediction_Food101.ipynb
-├── MNIST
-│ └── conformal_prediction_MNIST.ipynb
-├── Tiny_Imagenet
-│ └── tiny_imagenet_10.ipynb
-└── readme.md
 
 ## Conformal Prediction on Different Datasets
 
