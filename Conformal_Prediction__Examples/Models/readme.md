@@ -13,7 +13,7 @@ The models in this directory include:
     - [MNIST_model.ipynb](https://github.com/Aadharsh1/ML-Deep-Learning/blob/main/Conformal_Prediction__Examples/Models/Simple_CNN/conformal_prediction_MNIST.ipynb)
 
 - **Custom CNN**
-  - A more complex version of the Simple CNN sed for the Food101 dataset.
+  - A more complex version of the Simple CNN used for the Food101 dataset.
   - Files:
     - [Food101_model.ipynb](https://github.com/Aadharsh1/ML-Deep-Learning/blob/main/Conformal_Prediction__Examples/Models/Custom_CNN/conformal_prediction_Food101.ipynb)
 
