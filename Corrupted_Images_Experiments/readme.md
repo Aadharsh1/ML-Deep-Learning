@@ -28,7 +28,7 @@ The Tiny ImageNet-C dataset includes multiple types of distortions, each with se
 ### Code and Notebooks
 
 The code and detailed implementation can be found in the following Jupyter Notebook:
-- [Experiments on Tiny ImageNet-C](https://github.com/Aadharsh1/ML-Deep-Learning/blob/main/Corrupted_Images_Example/Tiny_Imagenet_C/tiny_imagenet_C%20.ipynb)
+- [Experiments on Tiny ImageNet-C](https://github.com/Aadharsh1/ML-Deep-Learning/blob/main/Corrupted_Images_Experiments/Tiny_Imagenet_C/tiny_imagenet_C%20.ipynb)
 
 
 ## Experiments
