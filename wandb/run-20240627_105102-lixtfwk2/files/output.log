@@ -1,0 +1,10 @@
+
+Epoch 0: Training Loss: 0.7665, Training Accuracy: 72.0482, Val Loss: 0.4943, Val Accuracy: 81.7377
+Epoch 1: Training Loss: 0.3862, Training Accuracy: 85.8159, Val Loss: 0.3757, Val Accuracy: 86.3854
+Directory 'Weights_Biases/Fashion Mnist Experiments' already exists.
+On branch main
+Your branch is up to date with 'origin/main'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mWeights_Biases/Fashion Mnist Experiments/fmnist rba pura run 2.ipynb
+	[31mwandb/
