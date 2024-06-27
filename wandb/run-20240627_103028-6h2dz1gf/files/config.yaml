@@ -2,7 +2,7 @@ wandb_version: 1
 
 learning_rate:
   desc: null
-  value: 0.01
+  value: 0.1
 architecture:
   desc: null
   value: Simple CNN
@@ -11,7 +11,7 @@ dataset:
   value: Fashion_MNIST
 epochs:
   desc: null
-  value: 2
+  value: 1
 _wandb:
   desc: null
   value:
@@ -21,7 +21,7 @@ _wandb:
     huggingface_version: 4.41.2
     is_jupyter_run: true
     is_kaggle_kernel: false
-    start_time: 1719484095
+    start_time: 1719484228
     t:
       1:
       - 1
@@ -36,7 +36,6 @@ _wandb:
       - 49
       - 55
       3:
-      - 2
       - 13
       - 16
       - 23

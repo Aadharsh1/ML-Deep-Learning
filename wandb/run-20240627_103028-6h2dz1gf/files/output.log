@@ -1,0 +1,40 @@
+
+Epoch 0: Training Loss: 0.7147, Training Accuracy: 74.4520, Val Loss: 0.4603, Val Accuracy: 83.5092
+Directory 'Weights_Biases/Project Greyscale' already exists.
+On branch main
+Your branch is up to date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   wandb/debug-internal.log
+	[31mmodified:   wandb/debug.log
+	[31mmodified:   wandb/latest-run
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/files/config.yaml
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/files/output.log
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/files/wandb-summary.json
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/logs/debug-internal.log
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/logs/debug.log
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/run-t5opzeja.wandb
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mWeights_Biases/Project Greyscale/fmnist3.ipynb
+	[31mwandb/run-20240627_103028-6h2dz1gf/
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch main
+Your branch is up to date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   wandb/debug-internal.log
+	[31mmodified:   wandb/debug.log
+	[31mmodified:   wandb/latest-run
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/files/config.yaml
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/files/output.log
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/files/wandb-summary.json
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/logs/debug-internal.log
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/logs/debug.log
+	[31mmodified:   wandb/run-20240627_102815-t5opzeja/run-t5opzeja.wandb
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mWeights_Biases/Project Greyscale/fmnist3.ipynb
+	[31mwandb/run-20240627_103028-6h2dz1gf/

@@ -70,3 +70,22 @@ config: {'learning_rate': 0.01, 'architecture': 'Simple CNN', 'dataset': 'Fashio
 2024-06-27 10:29:10,997 INFO    MainThread:1144 [jupyter.py:save_ipynb():372] not saving jupyter notebook
 2024-06-27 10:29:10,997 INFO    MainThread:1144 [wandb_init.py:_pause_backend():431] pausing backend
 2024-06-27 10:29:27,485 INFO    MainThread:1144 [wandb_init.py:_resume_backend():436] resuming backend
+2024-06-27 10:29:27,590 INFO    MainThread:1144 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-06-27 10:29:27,590 INFO    MainThread:1144 [wandb_init.py:_pause_backend():431] pausing backend
+2024-06-27 10:29:29,470 INFO    MainThread:1144 [wandb_init.py:_resume_backend():436] resuming backend
+2024-06-27 10:29:29,576 INFO    MainThread:1144 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-06-27 10:29:29,577 INFO    MainThread:1144 [wandb_init.py:_pause_backend():431] pausing backend
+2024-06-27 10:29:32,806 INFO    MainThread:1144 [wandb_init.py:_resume_backend():436] resuming backend
+2024-06-27 10:29:33,920 INFO    MainThread:1144 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-06-27 10:29:33,920 INFO    MainThread:1144 [wandb_init.py:_pause_backend():431] pausing backend
+2024-06-27 10:29:42,754 INFO    MainThread:1144 [wandb_init.py:_resume_backend():436] resuming backend
+2024-06-27 10:29:42,755 INFO    MainThread:1144 [wandb_run.py:_finish():2109] finishing run aadharshr-2022-Singapore Management University/Project Greyscale/t5opzeja
+2024-06-27 10:29:42,756 INFO    MainThread:1144 [jupyter.py:save_history():444] not saving jupyter history
+2024-06-27 10:29:42,756 INFO    MainThread:1144 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-06-27 10:29:42,756 INFO    MainThread:1144 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-06-27 10:29:42,756 INFO    MainThread:1144 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 0
+2024-06-27 10:29:42,756 INFO    MainThread:1144 [wandb_run.py:_restore():2332] restore
+2024-06-27 10:29:42,757 INFO    MainThread:1144 [wandb_run.py:_restore():2338] restore done
+2024-06-27 10:29:46,260 INFO    MainThread:1144 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-06-27 10:29:46,260 INFO    MainThread:1144 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-06-27 10:29:46,268 INFO    MainThread:1144 [wandb_run.py:_footer_sync_info():3950] logging synced files
