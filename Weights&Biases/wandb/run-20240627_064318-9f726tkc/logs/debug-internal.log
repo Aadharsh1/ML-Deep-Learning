@@ -445,3 +445,61 @@
 2024-06-27 06:45:15,107 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started gpu monitoring
 2024-06-27 06:45:15,108 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started memory monitoring
 2024-06-27 06:45:15,109 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started network monitoring
+2024-06-27 06:45:15,260 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:16,260 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:16,741 INFO    Thread-24 :2243 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/output.log
+2024-06-27 06:45:16,963 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 06:45:16,963 INFO    HandlerThread:2243 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 06:45:16,963 INFO    HandlerThread:2243 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 06:45:16,963 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 06:45:16,963 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 06:45:16,963 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 06:45:16,964 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 06:45:16,964 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 06:45:16,970 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 06:45:16,970 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 06:45:16,970 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 06:45:16,971 DEBUG   SenderThread:2243 [sender.py:send():379] send: stats
+2024-06-27 06:45:17,260 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:17,972 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 06:45:18,260 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:18,742 INFO    Thread-24 :2243 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/output.log
+2024-06-27 06:45:19,260 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:20,260 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:21,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:22,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:23,244 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 06:45:23,245 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 06:45:23,286 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:23,545 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 06:45:24,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:25,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:26,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:27,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:28,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:29,247 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 06:45:29,261 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:30,262 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:31,262 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:32,262 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:33,262 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:34,248 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 06:45:34,262 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:35,262 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:36,262 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:37,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:38,244 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 06:45:38,245 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 06:45:38,285 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:39,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:39,537 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 06:45:40,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:40,508 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 06:45:40,508 INFO    HandlerThread:2243 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 06:45:40,508 INFO    HandlerThread:2243 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 06:45:40,509 INFO    SystemMonitor:2243 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 06:45:40,509 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 06:45:40,510 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 06:45:40,510 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 06:45:40,511 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 06:45:40,512 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started network monitoring

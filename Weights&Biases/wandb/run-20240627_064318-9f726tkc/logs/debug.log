@@ -61,3 +61,6 @@ config: {'learning_rate': 0.005, 'architecture': 'Simple CNN', 'dataset': 'Fashi
 2024-06-27 06:45:11,399 INFO    MainThread:461 [jupyter.py:save_ipynb():372] not saving jupyter notebook
 2024-06-27 06:45:11,399 INFO    MainThread:461 [wandb_init.py:_pause_backend():431] pausing backend
 2024-06-27 06:45:15,104 INFO    MainThread:461 [wandb_init.py:_resume_backend():436] resuming backend
+2024-06-27 06:45:16,924 INFO    MainThread:461 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-06-27 06:45:16,925 INFO    MainThread:461 [wandb_init.py:_pause_backend():431] pausing backend
+2024-06-27 06:45:40,507 INFO    MainThread:461 [wandb_init.py:_resume_backend():436] resuming backend
