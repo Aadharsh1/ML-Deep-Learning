@@ -1,0 +1,6 @@
+
+Epoch 0: Training Loss: 1.8744, Training Accuracy: 28.4965, Val Loss: 0.9685, Val Accuracy: 64.6994
+Epoch 1: Training Loss: 0.8015, Training Accuracy: 71.2570, Val Loss: 1.0862, Val Accuracy: 65.6250
+Epoch 2: Training Loss: 0.6716, Training Accuracy: 76.1910, Val Loss: 0.7200, Val Accuracy: 74.3133
+Epoch 3: Training Loss: 0.5990, Training Accuracy: 78.6431, Val Loss: 0.6413, Val Accuracy: 75.9156
+Epoch 4: Training Loss: 0.5453, Training Accuracy: 80.3605, Val Loss: 0.5310, Val Accuracy: 80.7524

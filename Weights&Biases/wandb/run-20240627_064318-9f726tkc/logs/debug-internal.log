@@ -503,3 +503,170 @@
 2024-06-27 06:45:40,510 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started gpu monitoring
 2024-06-27 06:45:40,511 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started memory monitoring
 2024-06-27 06:45:40,512 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started network monitoring
+2024-06-27 06:45:41,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:42,227 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 06:45:42,227 INFO    HandlerThread:2243 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 06:45:42,227 INFO    HandlerThread:2243 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 06:45:42,227 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 06:45:42,227 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 06:45:42,227 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 06:45:42,228 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 06:45:42,228 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 06:45:42,235 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 06:45:42,235 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 06:45:42,235 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 06:45:42,235 DEBUG   SenderThread:2243 [sender.py:send():379] send: stats
+2024-06-27 06:45:42,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:42,750 INFO    Thread-24 :2243 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/output.log
+2024-06-27 06:45:43,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:44,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:44,751 INFO    Thread-24 :2243 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/output.log
+2024-06-27 06:45:45,248 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 06:45:45,263 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:46,264 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:47,264 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:47,888 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 06:45:47,889 INFO    HandlerThread:2243 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 06:45:47,889 INFO    HandlerThread:2243 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 06:45:47,889 INFO    SystemMonitor:2243 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 06:45:47,889 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 06:45:47,890 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 06:45:47,890 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 06:45:47,891 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 06:45:47,891 INFO    SystemMonitor:2243 [interfaces.py:start():188] Started network monitoring
+2024-06-27 06:45:47,929 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: server_info
+2024-06-27 06:45:47,929 DEBUG   SenderThread:2243 [sender.py:send():379] send: telemetry
+2024-06-27 06:45:47,929 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: server_info
+2024-06-27 06:45:48,162 DEBUG   SenderThread:2243 [sender.py:send():379] send: exit
+2024-06-27 06:45:48,162 INFO    SenderThread:2243 [sender.py:send_exit():586] handling exit code: 0
+2024-06-27 06:45:48,162 INFO    SenderThread:2243 [sender.py:send_exit():588] handling runtime: 60
+2024-06-27 06:45:48,163 INFO    SenderThread:2243 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 06:45:48,163 INFO    SenderThread:2243 [sender.py:send_exit():594] send defer
+2024-06-27 06:45:48,163 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,163 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-27 06:45:48,163 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,163 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-27 06:45:48,163 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 1
+2024-06-27 06:45:48,164 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,164 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-27 06:45:48,164 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,164 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-27 06:45:48,164 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 2
+2024-06-27 06:45:48,164 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,164 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-27 06:45:48,164 INFO    HandlerThread:2243 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 06:45:48,164 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 06:45:48,165 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 06:45:48,165 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 06:45:48,165 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 06:45:48,165 DEBUG   SystemMonitor:2243 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 06:45:48,171 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 06:45:48,172 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 06:45:48,172 INFO    HandlerThread:2243 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 06:45:48,172 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,172 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-27 06:45:48,172 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 3
+2024-06-27 06:45:48,172 DEBUG   SenderThread:2243 [sender.py:send():379] send: stats
+2024-06-27 06:45:48,173 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,173 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-27 06:45:48,173 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,173 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-27 06:45:48,173 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 4
+2024-06-27 06:45:48,173 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,173 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-27 06:45:48,174 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,174 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-27 06:45:48,174 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 5
+2024-06-27 06:45:48,174 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,174 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-27 06:45:48,174 DEBUG   SenderThread:2243 [sender.py:send():379] send: summary
+2024-06-27 06:45:48,174 INFO    SenderThread:2243 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 06:45:48,175 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,175 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-27 06:45:48,175 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 6
+2024-06-27 06:45:48,175 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,175 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-27 06:45:48,175 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,175 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-27 06:45:48,179 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 06:45:48,416 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 7
+2024-06-27 06:45:48,416 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:48,416 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-27 06:45:48,416 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:48,416 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-27 06:45:48,752 INFO    Thread-24 :2243 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/wandb-summary.json
+2024-06-27 06:45:48,753 INFO    Thread-24 :2243 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/config.yaml
+2024-06-27 06:45:49,162 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 06:45:49,967 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 8
+2024-06-27 06:45:49,967 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 06:45:49,967 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:49,967 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-27 06:45:49,968 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:49,968 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-27 06:45:49,968 INFO    SenderThread:2243 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-27 06:45:49,968 INFO    SenderThread:2243 [job_builder.py:_get_source_type():580] no source found
+2024-06-27 06:45:49,968 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 9
+2024-06-27 06:45:49,968 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:49,968 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-27 06:45:49,969 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:49,969 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-27 06:45:49,969 INFO    SenderThread:2243 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-27 06:45:50,163 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 06:45:50,753 INFO    Thread-24 :2243 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/output.log
+2024-06-27 06:45:50,754 INFO    SenderThread:2243 [dir_watcher.py:finish():388] scan: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files
+2024-06-27 06:45:50,754 INFO    SenderThread:2243 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/config.yaml config.yaml
+2024-06-27 06:45:50,754 INFO    SenderThread:2243 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/output.log output.log
+2024-06-27 06:45:50,757 INFO    SenderThread:2243 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/wandb-metadata.json wandb-metadata.json
+2024-06-27 06:45:50,759 INFO    SenderThread:2243 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/wandb-summary.json wandb-summary.json
+2024-06-27 06:45:50,759 INFO    SenderThread:2243 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/requirements.txt requirements.txt
+2024-06-27 06:45:50,760 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 10
+2024-06-27 06:45:50,760 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 06:45:50,760 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:50,761 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-27 06:45:50,764 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:50,765 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-27 06:45:50,765 INFO    SenderThread:2243 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 06:45:51,166 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 06:45:51,166 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 06:45:52,124 INFO    wandb-upload_1:2243 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/output.log
+2024-06-27 06:45:52,167 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 06:45:52,167 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 06:45:52,238 INFO    wandb-upload_0:2243 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/config.yaml
+2024-06-27 06:45:52,275 INFO    wandb-upload_2:2243 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/wandb-summary.json
+2024-06-27 06:45:52,397 INFO    wandb-upload_3:2243 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/files/requirements.txt
+2024-06-27 06:45:52,598 INFO    Thread-23 (_thread_body):2243 [sender.py:transition_state():614] send defer: 11
+2024-06-27 06:45:52,598 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:52,598 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-27 06:45:52,599 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:52,599 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-27 06:45:52,599 INFO    SenderThread:2243 [file_pusher.py:join():175] waiting for file pusher
+2024-06-27 06:45:52,599 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 12
+2024-06-27 06:45:52,599 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:52,599 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-27 06:45:52,599 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:52,599 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-27 06:45:52,600 INFO    SenderThread:2243 [file_stream.py:finish():601] file stream finish called
+2024-06-27 06:45:52,849 INFO    SenderThread:2243 [file_stream.py:finish():605] file stream finish is done
+2024-06-27 06:45:52,850 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 13
+2024-06-27 06:45:52,850 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:52,850 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-27 06:45:52,850 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:52,850 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-27 06:45:52,850 INFO    SenderThread:2243 [sender.py:transition_state():614] send defer: 14
+2024-06-27 06:45:52,851 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 06:45:52,851 INFO    HandlerThread:2243 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-27 06:45:52,851 DEBUG   SenderThread:2243 [sender.py:send():379] send: final
+2024-06-27 06:45:52,851 DEBUG   SenderThread:2243 [sender.py:send():379] send: footer
+2024-06-27 06:45:52,851 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: defer
+2024-06-27 06:45:52,851 INFO    SenderThread:2243 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-27 06:45:52,852 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 06:45:52,852 DEBUG   SenderThread:2243 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 06:45:52,855 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 06:45:52,856 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-27 06:45:52,856 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-27 06:45:52,857 DEBUG   HandlerThread:2243 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-27 06:45:52,857 INFO    HandlerThread:2243 [handler.py:finish():882] shutting down handler
+2024-06-27 06:45:53,852 INFO    WriterThread:2243 [datastore.py:close():296] close: /content/ML-Deep-Learning/Weights&Biases/wandb/run-20240627_064318-9f726tkc/run-9f726tkc.wandb
+2024-06-27 06:45:53,853 INFO    SenderThread:2243 [sender.py:finish():1608] shutting down sender
+2024-06-27 06:45:53,853 INFO    SenderThread:2243 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 06:45:53,853 INFO    SenderThread:2243 [file_pusher.py:join():175] waiting for file pusher
