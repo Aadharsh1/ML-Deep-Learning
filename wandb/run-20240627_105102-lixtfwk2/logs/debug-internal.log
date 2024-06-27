@@ -451,3 +451,221 @@
 2024-06-27 10:52:30,333 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started gpu monitoring
 2024-06-27 10:52:30,334 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started memory monitoring
 2024-06-27 10:52:30,334 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:52:30,435 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 10:52:30,435 INFO    HandlerThread:1033 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 10:52:30,436 INFO    HandlerThread:1033 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:52:30,436 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:52:30,436 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:52:30,436 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:52:30,436 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:52:30,436 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:52:30,444 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:52:30,444 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:52:30,444 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:52:30,444 DEBUG   SenderThread:1033 [sender.py:send():379] send: stats
+2024-06-27 10:52:30,445 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:52:30,870 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:31,870 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:32,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:33,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:34,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:35,860 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 10:52:35,860 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 10:52:35,901 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:36,207 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:52:36,515 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 10:52:36,515 INFO    HandlerThread:1033 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 10:52:36,515 INFO    HandlerThread:1033 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 10:52:36,515 INFO    SystemMonitor:1033 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 10:52:36,516 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 10:52:36,516 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 10:52:36,517 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 10:52:36,517 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 10:52:36,517 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:52:36,621 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 10:52:36,621 INFO    HandlerThread:1033 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 10:52:36,621 INFO    HandlerThread:1033 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:52:36,622 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:52:36,622 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:52:36,622 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:52:36,622 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:52:36,623 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:52:36,629 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:52:36,629 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:52:36,630 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:52:36,630 DEBUG   SenderThread:1033 [sender.py:send():379] send: stats
+2024-06-27 10:52:36,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:37,392 INFO    Thread-24 :1033 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/output.log
+2024-06-27 10:52:37,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:38,228 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 10:52:38,228 INFO    HandlerThread:1033 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 10:52:38,229 INFO    HandlerThread:1033 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 10:52:38,229 INFO    SystemMonitor:1033 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 10:52:38,229 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 10:52:38,230 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 10:52:38,231 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 10:52:38,231 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 10:52:38,233 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:52:38,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:39,845 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 10:52:39,845 INFO    HandlerThread:1033 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 10:52:39,845 INFO    HandlerThread:1033 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:52:39,845 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:52:39,846 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:52:39,846 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:52:39,846 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:52:39,846 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:52:39,855 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:52:39,855 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:52:39,855 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:52:39,856 DEBUG   SenderThread:1033 [sender.py:send():379] send: stats
+2024-06-27 10:52:39,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:40,871 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:41,393 INFO    Thread-24 :1033 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/output.log
+2024-06-27 10:52:41,863 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:52:41,872 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:42,710 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 10:52:42,710 INFO    HandlerThread:1033 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 10:52:42,710 INFO    HandlerThread:1033 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 10:52:42,711 INFO    SystemMonitor:1033 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 10:52:42,711 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 10:52:42,712 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 10:52:42,712 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 10:52:42,713 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 10:52:42,714 INFO    SystemMonitor:1033 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:52:42,751 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: server_info
+2024-06-27 10:52:42,751 DEBUG   SenderThread:1033 [sender.py:send():379] send: telemetry
+2024-06-27 10:52:42,751 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: server_info
+2024-06-27 10:52:42,977 DEBUG   SenderThread:1033 [sender.py:send():379] send: exit
+2024-06-27 10:52:42,977 INFO    SenderThread:1033 [sender.py:send_exit():586] handling exit code: 0
+2024-06-27 10:52:42,977 INFO    SenderThread:1033 [sender.py:send_exit():588] handling runtime: 24
+2024-06-27 10:52:42,977 INFO    SenderThread:1033 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 10:52:42,977 INFO    SenderThread:1033 [sender.py:send_exit():594] send defer
+2024-06-27 10:52:42,977 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:42,978 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-27 10:52:42,978 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:42,978 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-27 10:52:42,978 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 1
+2024-06-27 10:52:42,978 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:42,978 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-27 10:52:42,978 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:42,978 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-27 10:52:42,978 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 2
+2024-06-27 10:52:42,978 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:42,978 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-27 10:52:42,978 INFO    HandlerThread:1033 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:52:42,979 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:52:42,979 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:52:42,979 DEBUG   SystemMonitor:1033 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:52:42,979 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:52:42,980 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:52:42,986 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:52:42,986 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:52:42,986 INFO    HandlerThread:1033 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:52:42,987 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:42,987 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-27 10:52:42,987 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 3
+2024-06-27 10:52:42,987 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:42,987 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-27 10:52:42,987 DEBUG   SenderThread:1033 [sender.py:send():379] send: stats
+2024-06-27 10:52:42,988 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:42,988 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-27 10:52:42,988 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 4
+2024-06-27 10:52:42,988 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:42,988 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-27 10:52:42,988 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:42,988 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-27 10:52:42,988 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 5
+2024-06-27 10:52:42,988 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:42,988 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-27 10:52:42,989 DEBUG   SenderThread:1033 [sender.py:send():379] send: summary
+2024-06-27 10:52:42,989 INFO    SenderThread:1033 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 10:52:42,989 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:42,989 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-27 10:52:42,989 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 6
+2024-06-27 10:52:42,990 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:42,990 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-27 10:52:42,990 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:42,990 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-27 10:52:42,993 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:52:43,361 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 7
+2024-06-27 10:52:43,361 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:43,361 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-27 10:52:43,361 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:43,361 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-27 10:52:43,394 INFO    Thread-24 :1033 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/wandb-summary.json
+2024-06-27 10:52:43,394 INFO    Thread-24 :1033 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/config.yaml
+2024-06-27 10:52:43,977 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:52:45,261 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 8
+2024-06-27 10:52:45,261 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:52:45,262 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:45,262 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-27 10:52:45,262 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:45,262 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-27 10:52:45,262 INFO    SenderThread:1033 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-27 10:52:45,263 INFO    SenderThread:1033 [job_builder.py:_get_source_type():580] no source found
+2024-06-27 10:52:45,263 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 9
+2024-06-27 10:52:45,263 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:45,263 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-27 10:52:45,263 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:45,263 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-27 10:52:45,263 INFO    SenderThread:1033 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-27 10:52:45,395 INFO    Thread-24 :1033 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/output.log
+2024-06-27 10:52:45,395 INFO    SenderThread:1033 [dir_watcher.py:finish():388] scan: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files
+2024-06-27 10:52:45,395 INFO    SenderThread:1033 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/config.yaml config.yaml
+2024-06-27 10:52:45,396 INFO    SenderThread:1033 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/output.log output.log
+2024-06-27 10:52:45,398 INFO    SenderThread:1033 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/wandb-metadata.json wandb-metadata.json
+2024-06-27 10:52:45,398 INFO    SenderThread:1033 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/wandb-summary.json wandb-summary.json
+2024-06-27 10:52:45,398 INFO    SenderThread:1033 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/requirements.txt requirements.txt
+2024-06-27 10:52:45,402 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 10
+2024-06-27 10:52:45,402 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:45,402 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-27 10:52:45,405 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:45,405 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-27 10:52:45,405 INFO    SenderThread:1033 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 10:52:45,929 INFO    wandb-upload_0:1033 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/config.yaml
+2024-06-27 10:52:45,978 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:52:45,978 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:52:46,122 INFO    wandb-upload_2:1033 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/wandb-summary.json
+2024-06-27 10:52:46,126 INFO    wandb-upload_3:1033 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/requirements.txt
+2024-06-27 10:52:46,981 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:52:46,982 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:52:47,015 INFO    wandb-upload_1:1033 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/files/output.log
+2024-06-27 10:52:47,216 INFO    Thread-23 (_thread_body):1033 [sender.py:transition_state():614] send defer: 11
+2024-06-27 10:52:47,216 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:47,217 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-27 10:52:47,217 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:47,217 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-27 10:52:47,217 INFO    SenderThread:1033 [file_pusher.py:join():175] waiting for file pusher
+2024-06-27 10:52:47,217 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 12
+2024-06-27 10:52:47,217 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:47,218 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-27 10:52:47,218 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:47,218 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-27 10:52:47,218 INFO    SenderThread:1033 [file_stream.py:finish():601] file stream finish called
+2024-06-27 10:52:47,982 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:52:47,999 INFO    SenderThread:1033 [file_stream.py:finish():605] file stream finish is done
+2024-06-27 10:52:47,999 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 13
+2024-06-27 10:52:47,999 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:52:47,999 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:47,999 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-27 10:52:48,000 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:48,000 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-27 10:52:48,000 INFO    SenderThread:1033 [sender.py:transition_state():614] send defer: 14
+2024-06-27 10:52:48,000 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:52:48,000 INFO    HandlerThread:1033 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-27 10:52:48,001 DEBUG   SenderThread:1033 [sender.py:send():379] send: final
+2024-06-27 10:52:48,001 DEBUG   SenderThread:1033 [sender.py:send():379] send: footer
+2024-06-27 10:52:48,001 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:52:48,001 INFO    SenderThread:1033 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-27 10:52:48,002 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:52:48,002 DEBUG   SenderThread:1033 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:52:48,004 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:52:48,005 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-27 10:52:48,005 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-27 10:52:48,006 DEBUG   HandlerThread:1033 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-27 10:52:48,006 INFO    HandlerThread:1033 [handler.py:finish():882] shutting down handler
+2024-06-27 10:52:49,002 INFO    WriterThread:1033 [datastore.py:close():296] close: /content/ML-Deep-Learning/wandb/run-20240627_105102-lixtfwk2/run-lixtfwk2.wandb
+2024-06-27 10:52:49,002 INFO    SenderThread:1033 [sender.py:finish():1608] shutting down sender
+2024-06-27 10:52:49,003 INFO    SenderThread:1033 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 10:52:49,003 INFO    SenderThread:1033 [file_pusher.py:join():175] waiting for file pusher
