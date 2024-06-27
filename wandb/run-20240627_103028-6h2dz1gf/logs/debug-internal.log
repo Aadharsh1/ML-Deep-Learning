@@ -425,3 +425,218 @@
 2024-06-27 10:31:36,230 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started gpu monitoring
 2024-06-27 10:31:36,231 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started memory monitoring
 2024-06-27 10:31:36,232 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:31:36,334 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 10:31:36,334 INFO    HandlerThread:1990 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 10:31:36,334 INFO    HandlerThread:1990 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:31:36,334 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:31:36,334 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:31:36,335 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:31:36,335 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:31:36,336 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:31:36,342 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:31:36,343 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:31:36,343 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:31:36,343 DEBUG   SenderThread:1990 [sender.py:send():379] send: stats
+2024-06-27 10:31:36,343 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:31:36,749 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:37,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:38,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:39,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:40,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:41,744 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:31:41,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:42,246 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 10:31:42,246 INFO    HandlerThread:1990 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 10:31:42,246 INFO    HandlerThread:1990 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 10:31:42,247 INFO    SystemMonitor:1990 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 10:31:42,247 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 10:31:42,248 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 10:31:42,248 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 10:31:42,249 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 10:31:42,250 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:31:42,352 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 10:31:42,352 INFO    HandlerThread:1990 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 10:31:42,352 INFO    HandlerThread:1990 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:31:42,353 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:31:42,353 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:31:42,354 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:31:42,354 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:31:42,354 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:31:42,361 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:31:42,362 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:31:42,362 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:31:42,362 DEBUG   SenderThread:1990 [sender.py:send():379] send: stats
+2024-06-27 10:31:42,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:43,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:44,229 INFO    Thread-36 :1990 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/output.log
+2024-06-27 10:31:44,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:45,296 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 10:31:45,297 INFO    HandlerThread:1990 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 10:31:45,297 INFO    HandlerThread:1990 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 10:31:45,297 INFO    SystemMonitor:1990 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 10:31:45,297 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 10:31:45,298 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 10:31:45,299 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 10:31:45,299 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 10:31:45,300 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:31:45,742 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-27 10:31:45,742 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: stop_status
+2024-06-27 10:31:45,750 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:46,411 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: pause
+2024-06-27 10:31:46,411 INFO    HandlerThread:1990 [handler.py:handle_request_pause():724] stopping system metrics thread
+2024-06-27 10:31:46,411 INFO    HandlerThread:1990 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:31:46,411 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:31:46,411 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:31:46,411 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:31:46,412 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:31:46,412 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:31:46,419 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:31:46,419 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:31:46,419 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:31:46,419 DEBUG   SenderThread:1990 [sender.py:send():379] send: stats
+2024-06-27 10:31:46,751 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:47,420 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:31:47,751 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:48,231 INFO    Thread-36 :1990 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/output.log
+2024-06-27 10:31:48,751 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:48,880 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: resume
+2024-06-27 10:31:48,880 INFO    HandlerThread:1990 [handler.py:handle_request_resume():715] starting system metrics thread
+2024-06-27 10:31:48,880 INFO    HandlerThread:1990 [system_monitor.py:start():194] Starting system monitor
+2024-06-27 10:31:48,880 INFO    SystemMonitor:1990 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-27 10:31:48,881 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started cpu monitoring
+2024-06-27 10:31:48,881 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started disk monitoring
+2024-06-27 10:31:48,882 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started gpu monitoring
+2024-06-27 10:31:48,883 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started memory monitoring
+2024-06-27 10:31:48,883 INFO    SystemMonitor:1990 [interfaces.py:start():188] Started network monitoring
+2024-06-27 10:31:48,921 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: server_info
+2024-06-27 10:31:48,922 DEBUG   SenderThread:1990 [sender.py:send():379] send: telemetry
+2024-06-27 10:31:48,922 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: server_info
+2024-06-27 10:31:48,983 DEBUG   SenderThread:1990 [sender.py:send():379] send: exit
+2024-06-27 10:31:48,983 INFO    SenderThread:1990 [sender.py:send_exit():586] handling exit code: 0
+2024-06-27 10:31:48,983 INFO    SenderThread:1990 [sender.py:send_exit():588] handling runtime: 13
+2024-06-27 10:31:48,983 INFO    SenderThread:1990 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 10:31:48,983 INFO    SenderThread:1990 [sender.py:send_exit():594] send defer
+2024-06-27 10:31:48,984 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:48,984 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-27 10:31:48,984 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:48,984 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-27 10:31:48,984 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 1
+2024-06-27 10:31:48,984 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:48,984 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-27 10:31:48,984 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:48,984 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-27 10:31:48,984 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 2
+2024-06-27 10:31:48,985 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:48,985 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-27 10:31:48,985 INFO    HandlerThread:1990 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-27 10:31:48,985 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-27 10:31:48,985 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-27 10:31:48,985 DEBUG   SystemMonitor:1990 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-27 10:31:48,986 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-27 10:31:48,986 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined disk monitor
+2024-06-27 10:31:48,992 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-27 10:31:48,992 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined memory monitor
+2024-06-27 10:31:48,992 INFO    HandlerThread:1990 [interfaces.py:finish():200] Joined network monitor
+2024-06-27 10:31:48,993 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:48,993 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-27 10:31:48,993 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 3
+2024-06-27 10:31:48,993 DEBUG   SenderThread:1990 [sender.py:send():379] send: stats
+2024-06-27 10:31:48,993 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:48,993 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-27 10:31:48,994 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:48,994 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-27 10:31:48,994 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 4
+2024-06-27 10:31:48,994 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:48,994 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-27 10:31:48,994 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:48,994 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-27 10:31:48,994 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 5
+2024-06-27 10:31:48,994 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:48,994 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-27 10:31:48,995 DEBUG   SenderThread:1990 [sender.py:send():379] send: summary
+2024-06-27 10:31:48,995 INFO    SenderThread:1990 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-27 10:31:48,995 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:48,995 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-27 10:31:48,995 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 6
+2024-06-27 10:31:48,996 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:48,996 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-27 10:31:48,996 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:48,996 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-27 10:31:49,000 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: status_report
+2024-06-27 10:31:49,068 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 7
+2024-06-27 10:31:49,068 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:49,068 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-27 10:31:49,068 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:49,068 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-27 10:31:49,231 INFO    Thread-36 :1990 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/config.yaml
+2024-06-27 10:31:49,231 INFO    Thread-36 :1990 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/wandb-summary.json
+2024-06-27 10:31:49,983 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:31:49,985 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 8
+2024-06-27 10:31:49,986 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:31:49,986 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:49,986 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-27 10:31:49,986 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:49,986 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-27 10:31:49,986 INFO    SenderThread:1990 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-27 10:31:49,987 INFO    SenderThread:1990 [job_builder.py:_get_source_type():580] no source found
+2024-06-27 10:31:49,987 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 9
+2024-06-27 10:31:49,987 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:49,987 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-27 10:31:49,987 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:49,987 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-27 10:31:49,987 INFO    SenderThread:1990 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-27 10:31:50,231 INFO    Thread-36 :1990 [dir_watcher.py:_on_file_modified():288] file/dir modified: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/output.log
+2024-06-27 10:31:50,232 INFO    SenderThread:1990 [dir_watcher.py:finish():388] scan: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files
+2024-06-27 10:31:50,232 INFO    SenderThread:1990 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/config.yaml config.yaml
+2024-06-27 10:31:50,232 INFO    SenderThread:1990 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/output.log output.log
+2024-06-27 10:31:50,234 INFO    SenderThread:1990 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/wandb-metadata.json wandb-metadata.json
+2024-06-27 10:31:50,235 INFO    SenderThread:1990 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/wandb-summary.json wandb-summary.json
+2024-06-27 10:31:50,235 INFO    SenderThread:1990 [dir_watcher.py:finish():402] scan save: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/requirements.txt requirements.txt
+2024-06-27 10:31:50,236 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 10
+2024-06-27 10:31:50,238 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:50,240 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-27 10:31:50,242 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:50,242 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-27 10:31:50,242 INFO    SenderThread:1990 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 10:31:50,532 INFO    wandb-upload_0:1990 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/config.yaml
+2024-06-27 10:31:50,777 INFO    wandb-upload_1:1990 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/output.log
+2024-06-27 10:31:50,802 INFO    wandb-upload_2:1990 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/wandb-summary.json
+2024-06-27 10:31:50,815 INFO    wandb-upload_3:1990 [upload_job.py:push():130] Uploaded file /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/files/requirements.txt
+2024-06-27 10:31:50,984 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:31:50,984 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:31:51,016 INFO    Thread-35 (_thread_body):1990 [sender.py:transition_state():614] send defer: 11
+2024-06-27 10:31:51,016 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:51,016 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-27 10:31:51,017 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:51,017 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-27 10:31:51,017 INFO    SenderThread:1990 [file_pusher.py:join():175] waiting for file pusher
+2024-06-27 10:31:51,017 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 12
+2024-06-27 10:31:51,017 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:51,017 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-27 10:31:51,018 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:51,018 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-27 10:31:51,018 INFO    SenderThread:1990 [file_stream.py:finish():601] file stream finish called
+2024-06-27 10:31:51,240 INFO    SenderThread:1990 [file_stream.py:finish():605] file stream finish is done
+2024-06-27 10:31:51,240 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 13
+2024-06-27 10:31:51,240 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:51,240 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-27 10:31:51,240 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:51,241 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-27 10:31:51,241 INFO    SenderThread:1990 [sender.py:transition_state():614] send defer: 14
+2024-06-27 10:31:51,241 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: defer
+2024-06-27 10:31:51,241 INFO    HandlerThread:1990 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-27 10:31:51,241 DEBUG   SenderThread:1990 [sender.py:send():379] send: final
+2024-06-27 10:31:51,241 DEBUG   SenderThread:1990 [sender.py:send():379] send: footer
+2024-06-27 10:31:51,241 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: defer
+2024-06-27 10:31:51,241 INFO    SenderThread:1990 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-27 10:31:51,242 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-27 10:31:51,243 DEBUG   SenderThread:1990 [sender.py:send_request():406] send_request: poll_exit
+2024-06-27 10:31:51,244 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-27 10:31:51,245 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-27 10:31:51,246 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-27 10:31:51,247 DEBUG   HandlerThread:1990 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-27 10:31:51,247 INFO    HandlerThread:1990 [handler.py:finish():882] shutting down handler
+2024-06-27 10:31:52,243 INFO    WriterThread:1990 [datastore.py:close():296] close: /content/ML-Deep-Learning/wandb/run-20240627_103028-6h2dz1gf/run-6h2dz1gf.wandb
+2024-06-27 10:31:52,243 INFO    SenderThread:1990 [sender.py:finish():1608] shutting down sender
+2024-06-27 10:31:52,243 INFO    SenderThread:1990 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-27 10:31:52,243 INFO    SenderThread:1990 [file_pusher.py:join():175] waiting for file pusher
