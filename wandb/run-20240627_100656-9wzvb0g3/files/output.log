@@ -1,0 +1,11 @@
+
+Epoch 0: Training Loss: 1.4715, Training Accuracy: 45.0610, Val Loss: 0.6439, Val Accuracy: 75.6768
+Epoch 1: Training Loss: 0.4343, Training Accuracy: 84.1318, Val Loss: 0.4216, Val Accuracy: 84.4745
+Epoch 2: Training Loss: 0.3676, Training Accuracy: 86.5522, Val Loss: 0.3823, Val Accuracy: 86.0271
+Directory 'Weights_Biases/Project_1' already exists.
+On branch main
+Your branch is up to date with 'origin/main'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mWeights_Biases/Project_1/fmnist_2.ipynb
+	[31mwandb/
