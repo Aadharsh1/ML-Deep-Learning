@@ -1,0 +1,102 @@
+{
+    "os": "Linux-6.1.85+-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-06-28T03:52:12.713751",
+    "startedAt": "2024-06-28T03:52:09.537015",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "fmnist1.ipynb",
+    "codePathLocal": null,
+    "colab": "https://colab.research.google.com/notebook#fileId=1s9AjS82YbrzhqJjCQNhgUa_OGZRCD0zz",
+    "host": "a94431811a5a",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2200.164,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.164,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 201.22513961791992,
+            "used": 27.62590789794922
+        }
+    },
+    "gpu": "NVIDIA L4",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA L4",
+            "memory_total": 24152899584
+        }
+    ],
+    "memory": {
+        "total": 52.96144104003906
+    }
+}
