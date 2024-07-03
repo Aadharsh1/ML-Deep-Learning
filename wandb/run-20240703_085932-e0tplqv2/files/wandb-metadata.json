@@ -1,0 +1,102 @@
+{
+    "os": "Linux-6.1.85+-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-07-03T08:59:37.272486",
+    "startedAt": "2024-07-03T08:59:32.916095",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "fmnist_annotations.ipynb",
+    "codePathLocal": null,
+    "colab": "https://colab.research.google.com/notebook#fileId=1vp_7YJNs8hUUC31GXUyHfzaHnDJRXzR5",
+    "host": "567d3e40b63f",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2200.178,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2200.178,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 201.22513961791992,
+            "used": 27.823291778564453
+        }
+    },
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-SXM4-40GB",
+            "memory_total": 42949672960
+        }
+    ],
+    "memory": {
+        "total": 83.47704696655273
+    }
+}
